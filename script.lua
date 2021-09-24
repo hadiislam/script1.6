@@ -10,20 +10,6 @@ function setvalue(address,flags,value) PS('修改地址数值(地址,数值类�
 function PS() end function setvalue(address,flags,value) PS('修改地址数值(地址,数值类型,要修改的值)') local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
 
 
-gg.toast("■□□□□□□10%")
-gg.sleep(300)
-gg.toast("■■□□□□□20%")
-gg.sleep(300)
-gg.toast("■■■□□□□40%")
-gg.sleep(300)
-gg.toast("■■■■□□□60%")
-gg.sleep(300)
-gg.toast("■■■■■□□80%")
-gg.sleep(300)
-gg.toast("■■■■■■□90%")
-gg.sleep(300)
-gg.toast("■■■■■■■100%")
-gg.sleep(200)
 function HOME()
 SN = gg.choice({ 
    "👻 ᴏɴᴇ ᴄʟɪᴄᴋ 〖 ꜱᴀꜰᴇ 〗 \n╰  〖 ʟᴏʙʙʏ/ɢᴀᴍᴇ 〗\n",
