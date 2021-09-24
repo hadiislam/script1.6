@@ -617,7 +617,7 @@ load()
 end
 
 function MPAGE()
-local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/hadiislam/script1.6/main/#.lua')
+local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/hadiislam/script1.6/main/HOME.lua')
 if file.content == nil or file.content == '' then
 os.exit()
 end﻿
