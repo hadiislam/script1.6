@@ -1,5 +1,5 @@
 
-function HOME()
+function HOME2()
 SN = gg.choice({ 
    "👻 ᴏɴᴇ ᴄʟɪᴄᴋ 〖 ꜱᴀꜰᴇ 〗 \n╰  〖 ʟᴏʙʙʏ/ɢᴀᴍᴇ 〗\n",
    "🛠 sᴀғᴇ ʜᴀᴄᴋs \n╰  〖 ʟᴏʙʙʏ/ɢᴀᴍᴇ 〗\n",
@@ -14,7 +14,7 @@ if SN==2 then F2() end
 if SN==3 then F3() end
 if SN==4 then F4() end
 if SN==5 then F5() end
-if SN==6 then MPAGE() end
+if SN==6 then HOME() end
 end 
   PUBGMH = -1
 end
@@ -62,7 +62,7 @@ if F12 == nil then
       A8()
     end
     if F12[9] == true then
-      HOME()
+      HOME2()
     end
     end
 PUBGMH = -1
@@ -201,7 +201,7 @@ if F13 == nil then
       N4()
     end
     if F13[5] == true then
-      HOME()
+      HOME2()
     end
     end
 PUBGMH = -1
@@ -591,7 +591,9 @@ end
 load()
 end
 
-function MPAGE()
+
+
+function HOME()
 local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/hadiislam/script1.6/main/HOME.lua')
 if file.content == nil or file.content == '' then
 os.exit()
@@ -603,18 +605,4 @@ end
 load()
 end
 
-
-gg.skipRestoreState()
-  os.exit()
-  gg.setVisible(true)
-end 
-while true do
-  if gg.isVisible(true) then
-    PUBGMH = 1
-    gg.setVisible(false)
-  end
-  gg.clearResults()
-  if PUBGMH == 1 then
-    HOME()
- end
- end
+HOME2()
