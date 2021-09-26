@@ -3,7 +3,7 @@ function HOME()
 SN = gg.choice({ 
    "🛡️ 3ʀᴅ ᴘᴀʀᴛʏ ꜰɪx ( ʟᴏɢᴏ )",
    "🛡️ ᴍɪꜱᴀᴋɪ ʙʏᴘᴀꜱꜱ",
-   "🛡️ 7ʜ ʙʏᴘᴀꜱꜱ",
+   "🛡️ ɪᴏʀɪ ʙʏᴘᴀꜱꜱ",
    "🛑 ʙᴀᴄᴋ ",
 	 }, nil, "●▬▬▬▬▬▬▬▬▬▬▬▬●\n• ꜱᴄʀɪᴘᴛ ʙʏ : ʜᴀᴅɪ ɪꜱʟᴀᴍ 🇧🇩\n• ᴛᴇʟᴇɢʀᴀᴍ : ʜᴀᴅɪ_ɪꜱʟᴀᴍ 🇧🇩\n• ᴘᴜʙɢ ᴠᴇʀꜱɪᴏɴ : 1.6 \n• ☠️ ᴜꜱᴇ ᴀᴛ ʏᴏᴜʀ ᴏᴡɴ ʀɪꜱᴋ ☠️\n●▬▬▬▬▬▬▬▬▬▬▬▬●\n️")
 if SN == nil then else
@@ -45,7 +45,7 @@ load()
 end
 
 function F2()
-local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/hadiislam/script1.6/main/7H.lua')
+local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/hadiislam/script1.6/main/iori.lua')
 if file.content == nil or file.content == '' then
 os.exit()
 end﻿
