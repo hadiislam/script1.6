@@ -67,4 +67,14 @@ end
 function EXIT()
 os.exit()
 end
-VIPHOME()
+
+ while true do
+  if gg.isVisible(true) then
+    PUBGMH = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if PUBGMH == 1 then
+    VIPHOME()
+  end
+end
