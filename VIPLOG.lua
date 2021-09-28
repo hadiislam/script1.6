@@ -1,3 +1,4 @@
+gg.setVisible(false)
 os.remove("/sdcard/Android/data/com.tencent.ig/cache/GCloud.ini")
   os.remove("/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
   os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.ig/cache/GCloud.ini")
