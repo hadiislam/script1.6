@@ -1,11 +1,11 @@
-function HOME()
+function VIPHOME()
 SN = gg.choice({
 "( ʟᴏɢᴏ ᴋʀᴀꜰᴛᴏɴ )\n🧩 𝙇𝙊𝙂𝙊 𝘽𝙔𝙋𝘼𝙎𝙎",
     "( ʟᴏʙʙʏ )\n🛡 𝘽𝙔𝙋𝘼𝙎𝙎 ",
     "( ɪɴ ɢᴀᴍᴇ )\n🔧 𝙊𝙉𝙀 𝘾𝙇𝙄𝘾𝙆 𝙃𝘼𝘾𝙆 ",
     "( ᴇɴᴅ ɢᴀᴍᴇ )\n🎯 𝘾𝙇𝙀𝘼𝙍 𝙇𝙊𝙂",
     "🚫 ᴇxɪᴛ "
-	 }, nil, "●▬▬▬▬▬▬▬▬▬▬▬▬●\n╔➤ᴛᴇʟᴇɢʀᴀᴍ : @ɪᴏʀɪʜᴀᴄᴋ\n╠➤ᴏᴡɴᴇʀ : @xᴅʙʟᴀsᴛᴇʀ\n╚➤ ғʀᴇᴇ ʜᴀᴄᴋs ᴏɴʟʏ ●▬▬▬▬▬▬▬▬▬▬▬▬●\n️")
+	 }, nil,  "●▬▬▬▬▬▬▬▬▬▬▬▬●\n• ꜱᴄʀɪᴘᴛ ʙʏ : ʜᴀᴅɪ ɪꜱʟᴀᴍ 🇧🇩\n• ᴛᴇʟᴇɢʀᴀᴍ : ʜᴀᴅɪ_ɪꜱʟᴀᴍ 🇧🇩\n• ᴘᴜʙɢ ᴠᴇʀꜱɪᴏɴ : 1.6 \n• ☠️ ᴜꜱᴇ ᴀᴛ ʏᴏᴜʀ ᴏᴡɴ ʀɪꜱᴋ ☠️\n●▬▬▬▬▬▬▬▬▬▬▬▬●\n️")
 if SN == nil then else
 if SN==1 then LOGO() end
 if SN==2 then BYPASS() end
@@ -17,7 +17,7 @@ end
 end
 
 function LOGO()
-local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/hadiislam/SafeScriptgg/main/GG')
+local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/hadiislam/script1.6/main/viplogo.lua')
 if file.content == nil or file.content == '' then
 os.exit()
 end﻿
@@ -29,7 +29,7 @@ load()
 end
 
 function BYPASS()
-local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/hadiislam/SafeScriptgg/main/GG')
+local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/hadiislam/script1.6/main/vipbypass.lua')
 if file.content == nil or file.content == '' then
 os.exit()
 end﻿
@@ -41,7 +41,7 @@ load()
 end
 
 function ONECLICK()
-local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/hadiislam/SafeScriptgg/main/GG')
+local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/hadiislam/script1.6/main/vip1click.lua')
 if file.content == nil or file.content == '' then
 os.exit()
 end﻿
@@ -53,7 +53,7 @@ load()
 end
 
 function LOG()
-local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/hadiislam/SafeScriptgg/main/GG')
+local﻿ file = gg.makeRequest('https://raw.githubusercontent.com/hadiislam/script1.6/main/viplog.lua')
 if file.content == nil or file.content == '' then
 os.exit()
 end﻿
@@ -67,3 +67,4 @@ end
 function EXIT()
 os.exit()
 end
+VIPHOME()
