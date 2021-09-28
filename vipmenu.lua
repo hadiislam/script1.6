@@ -64,7 +64,7 @@ end
 load()
 end
 
-function EXIT()
+function Exit()
 os.exit()
 end
 
