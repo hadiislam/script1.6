@@ -139,7 +139,6 @@ gg.refineNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -
 gg.getResults(1401)
 gg.editAll("4848124999984742400", gg.TYPE_QWORD)
 gg.clearResults()
-gg.alert("STAND SCOPE")
 
 
 
