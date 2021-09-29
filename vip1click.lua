@@ -118,14 +118,7 @@ gg.toast("ɴᴏ ғᴏɢ 𝙰𝙲𝚃𝙸𝚅𝙰𝚃𝙴√")
   gg.toast("Sit Scope On")
   
   
-  ---prone scope
-  gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("4.13590356e-25;18.38614463806;0.53446388245:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("18.38614463806", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(500)
-gg.editAll("240", gg.TYPE_FLOAT)
-gg.clearResults()
+
 
 ---seat left scope
 gg.clearResults()
