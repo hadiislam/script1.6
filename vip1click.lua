@@ -95,39 +95,9 @@ gg.clearResults()
 gg.toast("ɴᴏ ғᴏɢ 𝙰𝙲𝚃𝙸𝚅𝙰𝚃𝙴√")
 
 
----sit scope
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("4848124999984742400", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("-4767057191653227520", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-4767057191653227520", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("-4767057191527907328", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("18.38787841797;0.53867292404;-3.42232513428;1.77635705e-15:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("18.38787841797", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(2805)
-  gg.editAll("130.5419921875", gg.TYPE_FLOAT, false, 536870912, 0, -1)
-  gg.clearResults()
-  gg.toast("Sit Scope On")
-  
   
 
 
----seat left scope
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("4.13590356e-25;13.27983283997;-0.00417327881:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("13.27983283997", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(500)
-gg.editAll("-250", gg.TYPE_FLOAT)
-gg.clearResults()
 
 
 ---stand scope
